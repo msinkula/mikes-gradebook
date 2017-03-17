@@ -4,7 +4,7 @@ Plugin Name: Mike's Gradebook
 Description: This is my Gradebook Plugin created from Adam R. Brown's KB Gradebook.
 Author: Mike Sinkula
 Version: 2.0
-Plugin URI: 
+Plugin URI: https://github.com/msinkula/mikes-gradebook
 Author URI: http://www.premiumdw.com/
 */
 
