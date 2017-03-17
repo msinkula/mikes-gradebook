@@ -813,17 +813,12 @@ function kbgv_plugin_init(){
 		return $out;
 	}
 
-///////////////////////////////////////////////
-// HOOKS
-///////////////////////////////////////////////
-function kbgv_admin_menu(){
 
-    /* add_submenu_page('edit.php', __('Gradebook', 'kbgb'), __('Gradebook', 'kbgb'), 10, 'kb-gradebook.php', 'kbgv_admin_page'); */
+// HOOKS //
+function kbgv_admin_menu(){
     
     // Add to admin_menu function
     add_menu_page( __( 'Gradebook', 'textdomain' ), 'Gradebook', 'manage_options', 'gradebook', 'kbgv_admin_page', 'dashicons-edit', 7); 
-    
-   
 
 }
 add_action('admin_menu', 'kbgv_admin_menu');
